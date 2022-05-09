@@ -107,20 +107,20 @@ callBack = {"metadata": {
                             "value_change": {
                                 "customColorText": {
                                     "DOW": colorsList[0], 
-                                    "VIX": colorsList[1], 
-                                    "NASDAQ": colorsList[2], 
-                                    "BITCOIN": colorsList[3], 
-                                    "S&P 500": colorsList[4], 
+                                    "S&P 500": colorsList[1],
+                                    "NASDAQ": colorsList[2],
+                                    "VIX": colorsList[3],  
+                                    "BITCOIN": colorsList[4],  
                                     "US 10-YR YIELD": colorsList[5]
                                     }
                                 },
                             "value_percent_change": {
                                 "customColorText": {
                                     "DOW": colorsList[0], 
-                                    "VIX": colorsList[1], 
-                                    "NASDAQ": colorsList[2], 
-                                    "BITCOIN": colorsList[3], 
-                                    "S&P 500": colorsList[4], 
+                                    "S&P 500": colorsList[1],
+                                    "NASDAQ": colorsList[2],
+                                    "VIX": colorsList[3],  
+                                    "BITCOIN": colorsList[4],  
                                     "US 10-YR YIELD": colorsList[5]
                                     }
                                 }
