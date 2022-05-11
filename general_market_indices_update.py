@@ -80,21 +80,19 @@ for key, value in gm.tickers.items():
     else:
         colorsList.append("#31a354")
 
-gmDict = {'index': ['DOW',
+gmDict = {'Index': ['DOW',
                     'S&P 500',
                     'NASDAQ',
                     'VIX',
                     'BITCOIN',
                     'US 10-YR YIELD'], 
-            'value': latestIndexList,
-            'value_change': idxChgList,
-            'value_percent_change': pctCngList}
+            'Level': latestIndexList,
+            'Change': idxChgList,
+            '% Change': pctCngList}
 
 gmDF = pd.DataFrame(data=gmDict)
 
 gmDF.to_csv("generalMarketIndices.csv", index=False)
-
-# time.sleep(2)
 
 fileDate = str(datetime.today().strftime('%B %d, %Y'))
 
