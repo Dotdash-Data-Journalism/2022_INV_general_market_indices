@@ -102,7 +102,7 @@ callBack = {"metadata": {
                     },
                     "visualize": {
                         "columns": {
-                            "value_change": {
+                            "Change": {
                                 "customColorText": {
                                     "DOW": colorsList[0], 
                                     "S&P 500": colorsList[1],
@@ -112,7 +112,7 @@ callBack = {"metadata": {
                                     "US 10-YR YIELD": colorsList[5]
                                     }
                                 },
-                            "value_percent_change": {
+                            "% Change": {
                                 "customColorText": {
                                     "DOW": colorsList[0], 
                                     "S&P 500": colorsList[1],
