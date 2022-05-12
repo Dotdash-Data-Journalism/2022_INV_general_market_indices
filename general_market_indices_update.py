@@ -96,9 +96,10 @@ gmDF.to_csv("generalMarketIndices.csv", index=False)
 
 fileDate = str(datetime.today().strftime('%B %d, %Y'))
 
+# Formerly had notes of Data from Yahoo Finance. Updated {fileDate} in f-string on line 102
 callBack = {"metadata": {
                     "annotate": {
-                        "notes": f"Data from Yahoo Finance. Updated {fileDate}"
+                        "notes": f""
                     },
                     "visualize": {
                         "columns": {
